@@ -1,0 +1,8 @@
+option java_package = "org.cgl.util.protobuf26.message";
+option java_outer_classname = "Message";
+
+message LoginRequest{
+  optional int32 applicationId = 1;
+  optional string userName = 2;
+  optional string passwordMd5 = 3;
+}
