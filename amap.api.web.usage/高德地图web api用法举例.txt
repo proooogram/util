@@ -1,0 +1,6 @@
+注册高德地图开放平台 获取key
+http://lbs.amap.com/dev/key/app#
+key:  6d0b5598f763d95f1eef6f2fe8710b59
+
+web api 例子:
+http://lbs.amap.com/api/javascript-api/example
