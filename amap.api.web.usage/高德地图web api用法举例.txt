@@ -1,6 +1,7 @@
-×¢²á¸ßµÂµØÍ¼¿ª·ÅÆ½Ì¨ »ñÈ¡key
+æ³¨å†Œé«˜å¾·åœ°å›¾å¼€æ”¾å¹³å° è·å–key
 http://lbs.amap.com/dev/key/app#
-key:  6d0b5598f763d95f1eef6f2fe8710b59
+webç«¯key:  6d0b5598f763d95f1eef6f2fe8710b59
+webæœåŠ¡key: 279ec81517e67f1880c86f09378f9028
 
-web api Àı×Ó:
+web api ä¾‹å­:
 http://lbs.amap.com/api/javascript-api/example
