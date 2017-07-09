@@ -52,9 +52,23 @@
 
 
 // 到 http://lbs.amap.com/console/show/picker  可以安装 poi 上海全康医疗中心  得出 坐标
-        var cpoint = [121.507759,31.234811]; //中心点坐标
+//121.507759,31.234811 : 上海全康医疗中心
+//121.376183,31.208317 : 上海和睦家医院
+//121.422146,31.189955 : 上海伽玛医院
+// 121.442947,31.216125 : 上海华顺医院
+// 121.472521,31.218973 : 上海百瑞肿瘤门诊部
+// 121.396028,31.198008: 上海美兆门诊部
+        var cpoint = [121.396028,31.198008]; //中心点坐标
         //placeSearch.searchNearBy('医院', cpoint, 1000, function(status, result) {});
-        placeSearch.searchNearBy('诊所', cpoint, 1000, function(status, result) {});
+        placeSearch.searchNearBy('诊所', cpoint, 1000, 
+		function(status, result) {
+		var debug =true;
+			for (var i = 0; i < result.poiList.pois.length; i++) {
+		// Iterate over numeric indexes from 0 to 5, as everyone expects.
+			console.log(result.poiList.pois[i].name+"\t"+result.poiList.pois[i].address+"\t"+result.poiList.pois[i].tel);
+			}
+		}
+		);
 		
     });
 	
